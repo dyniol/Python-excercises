@@ -1,6 +1,6 @@
 import json
 
-data = json.load(open("1-EnglishThesaurus\data.json"))
+data = json.load(open("/home/dakar/coding/py/Python-excercises/1-EnglishThesaurus/data.json"))
 
 def translate(word):
     return data[word]
