@@ -1,4 +1,3 @@
-import re
 import mysql.connector
 from difflib import get_close_matches
 
