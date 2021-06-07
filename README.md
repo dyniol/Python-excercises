@@ -3,9 +3,9 @@
 
 1. English Thesaurus
   Program that gets user input and matches it to the data from local json file.
-    * mysql-db-exercise
+    = mysql-db-exercise
     Program that gets user input and matches it to the data from mysql database.
-   Modules used:
+   = Modules used:
    - mysql.connector
    - difflib
    - json
