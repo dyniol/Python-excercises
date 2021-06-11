@@ -3,9 +3,9 @@ import pandas
 from datetime import datetime
 from pytz import utc
 
-data = pandas.read_csv('3-DataAnalysis/reviews.csv', parse_dates=['Timestamp'])
-data['Week'] = data['Timestamp'].dt.strftime('%Y-%U')
-week_average = data.groupby(['Week']).mean()
+data = pandas.read_csv("3-DataAnalysis/reviews.csv", parse_dates=['Timestamp'])
+data['Month'] = data['Timestamp'].dt.strftime('%Y-%m')
+month_average = data.groupby(['Month']).mean()
 
 charts_def = """
 {
@@ -72,8 +72,8 @@ def app():
     )
 
     hc = jp.HighCharts(a=wp, options=charts_def)
-    hc.options.xAxis.categories = list(week_average.index)
-    hc.options.series[0].data = list(week_average['Rating'])
+    hc.options.xAxis.categories = list(month_average.index)
+    hc.options.series[0].data = list(month_average['Rating'])
 
     return wp
 
