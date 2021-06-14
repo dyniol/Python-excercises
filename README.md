@@ -16,3 +16,8 @@
   - Program that creates world map in html, with data indicated from local .txt and .json files.
     - Modules used:
       - pandas, folium
+
+3. Data Analysis Charts
+  - Program that creates various charts using HighCharts templates, with data indicated from local .csv file, also contains two jupyter notebooks that explains syntax used in applications
+    - Modules used:
+      - pandas, justpy, matplotlib.pyplot, HighCharts
