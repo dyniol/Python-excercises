@@ -5,7 +5,7 @@ from pytz import utc
 
 data = pandas.read_csv("3-DataAnalysis/reviews.csv", parse_dates=['Timestamp'])
 data['Month'] = data['Timestamp'].dt.strftime('%Y-%m')
-month_average_course = data.groupby(['Month', 'Course Name']).mean().unstack()
+month_average_course = data.groupby(['Month', 'Course Name']).count().unstack()
 
 charts_def = """
 {
