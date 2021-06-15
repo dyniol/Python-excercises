@@ -37,9 +37,9 @@ def update(quantity, price, item):
     conn.commit()
     conn.close()
 
-create_table()
-insert("Orange",10,15)
-print(view())
+#create_table()
+#insert("Orange",10,15)
+#print(view())
 # update(11,6,"Coffee Cup")
 # delete("Water Glass")
 # print(view())
