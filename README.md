@@ -21,3 +21,13 @@
   - Program that creates various charts using HighCharts templates, with data indicated from local .csv file, also contains two jupyter notebooks that explains syntax used in applications
     - Modules used:
       - pandas, justpy, matplotlib.pyplot, HighCharts
+
+4. Personal Website creator
+  - Program that creates website with subpages - still under development
+    - Modules used:
+      - flask
+
+5. Database applications with GUI
+  - Program that creates various database applications with graphic user interface. Apps interfered SQL and Postgres databases.
+    - Modules used:
+      - tkinter, psycopg2, sqlite3, mysql.connector
