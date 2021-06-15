@@ -1,4 +1,5 @@
 import mysql.connector
+
 word = input("Enter a word in English and press Enter: ")
 con = mysql.connector.connect(
     user="ardit700_student", 

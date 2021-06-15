@@ -1,3 +1,4 @@
+# program that changes kilograms into other metrics with GUI
 from tkinter import *
 
 window=Tk()
