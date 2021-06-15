@@ -28,6 +28,6 @@
       - flask
 
 5. Database applications with GUI
-  - Program that creates various database applications with graphic user interface. Apps interfered SQL and Postgres databases.
+  - Program that creates various database applications with graphic user interface. Apps interfered SQL and Postgres databases. Created executeable file in /dist/ using pyinstaller. 
     - Modules used:
-      - tkinter, psycopg2, sqlite3, mysql.connector
+      - tkinter, psycopg2, sqlite3, mysql.connector, pyinstaller
